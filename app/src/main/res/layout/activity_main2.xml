@@ -7,7 +7,9 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     tools:context=".MainActivity2">
+
     <TextView
+        android:id="@+id/loginTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login Here"
@@ -18,7 +20,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
     <TextView
+        android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome back you've \n been missed"
@@ -29,7 +33,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
+
     <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Email"
@@ -48,6 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <EditText
+        android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Password"
@@ -66,6 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
+        android:id="@+id/forgotPasswordTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15sp"
@@ -78,6 +86,7 @@
         android:textColor="#1f41bb"/>
 
     <Button
+        android:id="@+id/signInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -94,6 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
+        android:id="@+id/createAccountTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15sp"
@@ -105,6 +115,7 @@
         android:textColor="#000000"/>
 
     <TextView
+        android:id="@+id/continueWithTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15sp"
@@ -117,6 +128,7 @@
         android:textColor="#1f41bb"/>
 
     <ImageButton
+        android:id="@+id/googleButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="fitCenter"
@@ -128,6 +140,7 @@
         android:src="@drawable/google"/>
 
     <ImageButton
+        android:id="@+id/facebookButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="fitCenter"
@@ -138,6 +151,7 @@
         android:src="@drawable/fb"/>
 
     <ImageButton
+        android:id="@+id/iosButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="fitCenter"

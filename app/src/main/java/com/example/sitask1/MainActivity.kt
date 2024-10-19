@@ -1,6 +1,10 @@
 package com.example.sitask1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,6 +20,15 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        val loginButton : Button = findViewById(R.id.loginButton)
+        loginButton.setOnClickListener{
+            val intent1 = Intent(this,MainActivity2::class.java)
+            startActivity(intent1)
+        }
+        val registerButton : Button = findViewById(R.id.registerButton)
+        registerButton.setOnClickListener {
+            val intent2 = Intent(this, MainActivity3::class.java)
+            startActivity(intent2)
+        }
     }
 }
