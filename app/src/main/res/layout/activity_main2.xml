@@ -15,8 +15,9 @@
         android:text="Login Here"
         android:textColor="#1F41BB"
         android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_marginTop="50dp"
+        android:fontFamily="@font/UbuntuBold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -28,7 +29,8 @@
         android:text="Welcome back you've \n been missed"
         android:textColor="#000000"
         android:textAlignment="center"
-        android:textSize="18dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/UbuntuLight"
         android:layout_marginTop="100dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="Forgot your Password?"
+        android:fontFamily="@font/UbuntuLight"
         android:textColor="#1f41bb"/>
 
     <Button
@@ -96,6 +99,7 @@
         android:background="@drawable/blue_button"
         android:backgroundTint="#1f41bb"
         android:text="Sign In"
+        android:fontFamily="@font/UbuntuBold"
         android:textColor="#FFFFFF"
         android:layout_marginTop="360dp"
         app:layout_constraintTop_toTopOf="parent"
@@ -112,6 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="Create New Account"
+        android:fontFamily="@font/UbuntuLight"
         android:textColor="#000000"/>
 
     <TextView
@@ -125,6 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="or Continue with"
+        android:fontFamily="@font/UbuntuLight"
         android:textColor="#1f41bb"/>
 
     <ImageButton
